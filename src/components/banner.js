@@ -1,4 +1,5 @@
-import hero from "../img/hero.png"
+import { Link } from "react-router-dom";
+import hero from "../resource/img/hero.png"
 function Banner(){
     const nama = "Triyono Rifan"
     return (
@@ -18,10 +19,10 @@ function Banner(){
                     </div>
 
                     <div className="w-full self-center px-5 md:w-1/2 lg:w-1/2 mb-5">
-                        <h1 className="text-xl font-semibold text-primary lg:text-2xl">Hello There 🤩 <span className="block font-bold text-dark text-4xl pt-2 lg:text-5xl mb-2 font-gothamBlack">I'm {nama}</span></h1>
+                        <h1 className="text-xl font-semibold text-primary lg:text-3xl">Hello There 🤩🙌 <span className="block font-bold text-dark text-4xl pt-2 lg:text-5xl mb-2 font-gothamBlack">I'm {nama}</span></h1>
                         <h2 className="font-medium text-slate-600 text-lg mb-5 md:text-lg lg:text-2xl">Undergraduate Informatika UPN Veteran Jawa Timur</h2>
                         <p className="font-medium text-slate-400 leading-relaxed mb-9 lg:text-lg">Tidur lanjutkan mimpi, atau Bangun untuk wujudkan mimpi!</p>
-                        <a href="#/" className="font-semibold text-base text-white bg-primary px-5 py-2 hover:bg-opacity-90 shadow-xl transition duration-100 ease-in-out focus:border-none rounded-full">Contact Me</a>
+                        <Link to="/contact" className="font-semibold text-base text-white bg-primary px-7 py-3 hover:bg-opacity-90 shadow-xl transition duration-100 ease-in-out focus:border-none rounded-full">Contact Me</Link>
                     </div>
 
 

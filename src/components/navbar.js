@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Outlet, Link } from "react-router-dom";
 // import logoNavbar from "../img/logonavbar.png"
 function Navbar(){
 
@@ -22,6 +23,7 @@ function Navbar(){
     }, [])
 
     return (
+        <>
         <header className="bg-transparent absolute w-full top-0 left-0 flex items-center z-10">
             <div className="container">
                 <div className="flex items-center justify-between relative py-2">
@@ -42,19 +44,21 @@ function Navbar(){
                     <nav className={`font-gotham font-normal navbar-menu absolute top-full mt-1 rounded w-full lg:block lg:static lg:text-dark  ${isActive ? "bg-primary": "hidden"}`}>
                         <ul className="block lg:flex lg:text-dark">
                             <li className="m-2 mx-2 group transition duration-300 ease-in-out lg:ml-auto">
-                                <a href="/" className=" lg:text-dark  text-white block p-1 px-2 group-hover:bg-white rounded group-hover:text-primary">Home</a>
+                                <Link to="/" className=" lg:text-dark  text-white block p-1 px-2 group-hover:bg-white rounded group-hover:text-primary">Home</Link>
                             </li>
                             <li className="m-2 mx-2 group transition duration-300 ease-in-out">
-                                <a href="#/" className=" lg:text-dark text-white block p-1 px-2 group-hover:bg-white rounded group-hover:text-primary">Portofolio</a>
+                            <Link to="/portofolio" className=" lg:text-dark  text-white block p-1 px-2 group-hover:bg-white rounded group-hover:text-primary">Protofolio</Link>
                             </li>
                             <li className="m-2 mx-2 group transition duration-300 ease-in-out">
-                                <a href="#/" className=" lg:text-dark text-white block p-1 px-2 group-hover:bg-white rounded group-hover:text-primary">Contact</a>
+                            <Link to="/contact" className=" lg:text-dark  text-white block p-1 px-2 group-hover:bg-white rounded group-hover:text-primary">Contact</Link>
                             </li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </header>
+        <Outlet/>
+        </>
     )
 }
 
