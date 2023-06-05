@@ -1,14 +1,14 @@
 function SectionAbout(){
     return (
-        <section id="about" className="pt-36 pb-32">
+        <section id="about" className="lg:pt-28 pb-32">
             <div className="container">
                 <div className="flex flex-wrap">
                     <div className="w-full md:w-1/2 lg:1/2 px-5 self-center mb-10 md:mb-0 lg:mb-0">
                         <h2 className="uppercase text-primary font-bold text-2xl">Tentang saya</h2>
-                        <p className="text-base text-slate-600 leading-relaxed mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem cumque culpa deserunt. A nesciunt, fugit non ducimus aperiam culpa mollitia doloribus magni libero repellendus. Voluptatibus beatae reiciendis sed officia similique.</p>
+                        <p className="text-base text-slate-600 leading-relaxed my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem cumque culpa deserunt. A nesciunt, fugit non ducimus aperiam culpa mollitia doloribus magni libero repellendus. Voluptatibus beatae reiciendis sed officia similique.</p>
                     </div>
-                    <div className="w-full md:w-1/2 lg:1/2 px-5 self-center">
-                        <h2 className="font-semibold text-2xl">Let's Connect with me!</h2>
+                    <div className="w-full md:w-1/2 lg:1/2 px-5 self-center mb-10 md:mb-0 lg:mb-0">
+                        <h2 className="uppercase font-bold text-yellow-500 text-2xl">Let's Connect with me!</h2>
                         <p className="text-base leading-relaxed my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione hic quis rerum dolore, inventore unde nulla.</p>
                         <div className="flex items-center">
                             

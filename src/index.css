@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 body{
-  @apply overflow-x-hidden
+  @apply overflow-x-hidden;
 }
 .humbergerline-1{
   @apply w-[35px] h-[4px] my-2 block bg-primary rounded-full;
