@@ -1,6 +1,6 @@
 function SectionAbout(){
     return (
-        <section id="about" className="lg:pt-28 pb-32">
+        <section id="about" className="lg:pt-32 pb-32">
             <div className="container">
                 <div className="flex flex-wrap">
                     <div className="w-full md:w-1/2 lg:1/2 px-5 self-center mb-10 md:mb-0 lg:mb-0">
