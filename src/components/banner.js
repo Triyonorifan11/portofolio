@@ -19,7 +19,7 @@ function Banner(){
 
                     <div className="w-full self-center px-5 md:w-1/2 lg:w-1/2 mb-20">
                         <h1 className="text-xl font-semibold text-primary lg:text-3xl">Hello There 🤩🙌 <span className="block font-bold text-dark text-4xl pt-2 lg:text-5xl mb-2 font-gothamBlack">I'm {nama}</span></h1>
-                        <h2 className="font-medium text-slate-600 text-lg mb-5 md:text-lg lg:text-2xl">Undergraduate Informatika UPN Veteran Jawa Timur</h2>
+                        <h2 className="font-medium text-slate-600 text-lg mb-5 md:text-lg lg:text-2xl">Undergraduate student of Informatic in UPN Veteran Jawa Timur</h2>
                         <p className="font-medium text-slate-400 leading-relaxed mb-9 lg:text-lg">Tidur lanjutkan mimpi, atau Bangun untuk wujudkan mimpi!</p>
                         <Link to="/contact" className="font-semibold text-base text-white bg-primary px-7 py-3 hover:bg-opacity-90 shadow-xl transition duration-100 ease-in-out focus:border-none rounded-full">Contact Me</Link>
                     </div>

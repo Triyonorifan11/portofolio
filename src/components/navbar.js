@@ -47,7 +47,7 @@ function Navbar(){
                                 <Link to="/" className=" lg:text-dark  text-white block p-1 px-2 group-hover:bg-white rounded group-hover:text-primary">Home</Link>
                             </li>
                             <li className="m-2 mx-2 group transition duration-300 ease-in-out">
-                            <Link to="/portofolio" className=" lg:text-dark  text-white block p-1 px-2 group-hover:bg-white rounded group-hover:text-primary">Protofolio</Link>
+                            <Link to="/portofolio" className=" lg:text-dark  text-white block p-1 px-2 group-hover:bg-white rounded group-hover:text-primary">Portofolio</Link>
                             </li>
                             <li className="m-2 mx-2 group transition duration-300 ease-in-out">
                             <Link to="/contact" className=" lg:text-dark  text-white block p-1 px-2 group-hover:bg-white rounded group-hover:text-primary">Contact</Link>
