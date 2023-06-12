@@ -1,13 +1,16 @@
 import SectionAbout from "../../components/about";
 import Banner from "../../components/banner";
-import Skills from "../../components/skils";
+import Draftportofolio from "../../components/draftportofolio";
+import MyBio from "../../components/myBio";
+
 
 function Home(){
     return(
         <>
         <Banner/>
         <SectionAbout/>
-        <Skills/>
+        <MyBio/>
+        <Draftportofolio/>
       </>
     )
 }
