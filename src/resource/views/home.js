@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer";
 import SectionAbout from "../../components/about";
 import Banner from "../../components/banner";
 import Draftportofolio from "../../components/draftportofolio";
@@ -11,6 +12,7 @@ function Home(){
         <SectionAbout/>
         <MyBio/>
         <Draftportofolio/>
+        <Footer/>
       </>
     )
 }
