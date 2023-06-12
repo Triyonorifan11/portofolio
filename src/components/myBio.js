@@ -6,7 +6,7 @@ function MyBio(){
             <WavesElement background="bg-white" fill="fill-primary" topBottom="top-0" rotate="" />
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-[40%] mt-32 lg:pl-24 lg:text-left text-center">
-                    <h1 className="block font-bold text-white text-4xl pt-2 lg:mt-12 lg:text-5xl mb-2 font-gothamBlack">I'm a Junior Front-End Web Developer</h1>
+                    <h1 className="block font-bold text-white text-4xl pt-2 mt-12 lg:text-5xl mb-2 font-gothamBlack">I'm a Junior Front-End Web Developer</h1>
                     <div className="py-10 leading-3 px-10 lg:px-0">
                         <p className="text-white text-xl leading-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex non quasi fugit repellendus vero officiis, ab reprehenderit consequatur odio aliquam aut, ipsam placeat dolores quia eos vitae quae harum dolorem?</p>
                         <p className="text-white text-xl leading-8 mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex non quasi fugit repellendus vero officiis, ab reprehenderit consequatur odio aliquam aut, ipsam placeat dolores quia eos vitae quae harum dolorem?</p>
