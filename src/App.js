@@ -5,6 +5,7 @@ import Home from './resource/views/home';
 import NoPage from './resource/views/NoPages';
 import Navbar from './components/navbar';
 import Portofolio from './resource/views/portofolio';
+import Contact from './resource/views/contact';
 
 // import Navbar from './components/navbar';
 
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<Navbar/>}>
           <Route index element={<Home/>} />
           <Route path='/portofolio' element={<Portofolio/>} />
+          <Route path='/contact' element={<Contact/>} />
           <Route path='*' element={<NoPage/>} />
         </Route>
       </Routes>
