@@ -5,6 +5,7 @@ import Draftportofolio from "../../components/draftportofolio";
 import MyBio from "../../components/myBio";
 
 
+
 function Home(){
     return(
         <>

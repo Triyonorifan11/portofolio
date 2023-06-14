@@ -3,10 +3,10 @@ import hero from "../resource/img/hero.png"
 function Banner(){
     const nama = "Triyono Rifan"
     return (
-        <section id="home" className="mt-32">
+        <section id="home" className="mt-32" >
             <div className="container">
                 <div className="flex flex-wrap overflow-hidden">
-                    <div className="w-full self-start px-5 md:w-1/2 lg:w-1/2 lg:mb-0 mb-10">
+                    <div data-aos="fade-left" className="w-full self-start px-5 md:w-1/2 lg:w-1/2 lg:mb-0 mb-10">
                         <div className="relative mx-auto mt-10 lg:left-0">
                             <img src={hero} width="350" className="max-w-full rounded-full mx-auto" alt="My Hero" />
                             <span className="absolute -bottom-16 -z-10 left-1/2 -translate-x-1/2 blur mx-auto">
@@ -17,7 +17,7 @@ function Banner(){
                         </div>
                     </div>
 
-                    <div className="w-full self-center px-5 md:w-1/2 lg:w-1/2 mb-20">
+                    <div data-aos="fade-right" className="w-full self-center px-5 md:w-1/2 lg:w-1/2 mb-20">
                         <h1 className="text-xl font-semibold text-primary lg:text-3xl">Hello There 👋👋 <span className="block font-bold text-dark text-4xl pt-2 lg:text-5xl mb-2 font-gothamBlack">I'm {nama}</span></h1>
                         <h2 className="font-medium text-slate-600 text-lg mb-5 md:text-lg lg:text-2xl">Undergraduate student of Informatic in UPN Veteran Jawa Timur</h2>
                         <p className="font-medium text-slate-400 leading-relaxed mb-9 lg:text-lg">Tidur lanjutkan mimpi, atau Bangun untuk wujudkan mimpi!</p>

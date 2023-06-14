@@ -93,7 +93,7 @@ function Draftportofolio(){
 
     return (
         <div className="container">
-            <div className="flex justify-center">
+            <div data-aos="zoom-in-up" className="flex justify-center">
                 <h1 className="block font-bold text-primary text-4xl pt-2 lg:text-4xl my-6 font-gothamBlack">My Portofolio</h1>
             </div>
             <div className="flex flex-wrap overflow-hidden py-9">

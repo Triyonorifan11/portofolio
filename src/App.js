@@ -6,11 +6,16 @@ import NoPage from './resource/views/NoPages';
 import Navbar from './components/navbar';
 import Portofolio from './resource/views/portofolio';
 import Contact from './resource/views/contact';
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 // import Navbar from './components/navbar';
 
 function App() {
-  
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <BrowserRouter>
       <Routes>
